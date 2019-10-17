@@ -9,11 +9,13 @@ abstract class animal{
 }
 
 class duck extends animal{
+
 	public function describe(){
 		return parent::describe();
 	}
+
 	public function makesound(){
-		return 'Quack';
+		return 'Quack Quack';
 	}
 }
 class dog extends animal{
